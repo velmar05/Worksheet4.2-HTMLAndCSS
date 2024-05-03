@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage Dessign</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="main">
+		<div class="navbar">
+			<div class="icon">
+				<h2 class="logo"><img src="images/ecom.png"></h2>
+			</div>
+		<header>	
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</div>
+		</header>
+		</div>
+			<div class="main">
+			<div class="content-contact">
+				<form name="contactForm" method="" action="">
+					<label>Name:</label><br>
+
+					<input type="text" name="txtName" id="txtName" placeholder="Enter Your Name" required value=""><br><br>
+					<label>Email:</label><br>
+					<input type="email" name="txtEmail" id="txtEmail" required placeholder="Enter Your Email"><br><br>
+
+					<label>Contact Number:</label><br>
+					<input type="tel" name="txtCNumber" id="txtCNumber" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="XXX-XXX-XXXX"><br><br>
+
+					<label>Age;</label><br>
+					<input type="number" name="txtAge" id="txtAge"><br><br>
+
+					<label>Birthday</label><br>
+					<input type="date" name="txtBday" id="txtBday"><br><br>
+
+					<label>Time of Birth</label><br>
+					<input type="time" name="txtTime" id="txtTime"><br><br>
+
+					<label>Sex:</label><br>
+					<input type="radio" name="rdSex" id="rdSex"><label>Male</label><br>
+					<input type="radio" name="rdSex" id="rdSex"><label>Female</label><br><br>
+
+					<label>Devices Used:</label><br>
+					<input type="checkbox" name="chkPC" id="chkPC">
+					<label>Personal Computer</label><br>
+					<input type="checkbox" name="chkSP" id="chkSP">
+					<label>Smartphone</label><br>
+					<input type="checkbox" name="chkLP" id="chkLP">
+					<label>Laptop</label><br>
+					<input type="checkbox" name="chkTL" id="chkTL">
+					<label>Tablet</label><br><br>
+
+					<label>Network Provider:</label><br>
+					<select name="sltNetPro">
+						<option value="Globe Telecom">Globe Telecom</option>
+						<option value="Smart Inc.">Smart Inc.</option>
+						<option value="Dito Telecom">Dito Telecom</option>
+						<option value="Converge">Converge</option>
+						<option value="StarLink">StarLink</option>
+					</select><br><br>
+
+					<button type="submit">SEND</button>
+					<button type="reset">CLEAR</button>
+				</form>
+			</div>
+	</div>
+</body>
+</html>
